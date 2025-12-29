@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+class book{
+public:
+	string name;
+	string author;
+	int year;
+		
+};
+int main(){
+	book b1,b2;
+	
+	b1.name="Matilda";
+	b1.author="Roald Dahl";
+	b1.year=1988;
+	
+	b2.name="The Giving Tree";
+	b2.author="Shel Silverstein";
+	b2.year=1964;
+	
+	cout<<"Book1 details";
+	cout<<"Book1 name\n"<<b1.name<<endl;
+	cout<<"Book1 author\n"<<b1.author<<endl;
+	cout<<"Book1 year\n"<<b1.year<<endl;
+	
+	cout<<"Book2 details\n";
+	cout<<"Book2 name\n"<<b2.name<<endl;
+	cout<<"Book2 author\n"<<b2.author<<endl;
+	cout<<"Book2 year\n"<<b2.year<<endl;
+	
+	return 0;
+}
